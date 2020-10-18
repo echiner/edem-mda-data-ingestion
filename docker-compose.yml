@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+    
+  nifi:
+    image: apache/nifi:latest
+    container_name: nifi
+    restart: always
+    ports:
+      - 8080:8080
+    volumes:
+      - ./shared:/tmp/shared
+    
+  nifi-registry:
+    image: apache/nifi-registry:latest
+    container_name: nifiregistry
+    restart: always
+    ports:
+      - 18080:18080
