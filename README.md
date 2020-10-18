@@ -8,10 +8,7 @@ In these section we will setup **[Apache NiFi](https://nifi.apache.org/)** and i
 
 ## Initial Setup
 
-We will be using the same Docker Compose used in the Hadoop Introduction courses (ING001 and ING002).
-Go to the resources folder of this section: `Sessions\ING-Ingestion\Resources`
-
-Start the Docker Compose architecture:
+We will be using the Docker Compose in this root folder, so start the Docker Compose components:
 
 ```shell
 docker-compose up -d
