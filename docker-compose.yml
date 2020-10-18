@@ -8,8 +8,6 @@ services:
     restart: always
     ports:
       - 8080:8080
-    volumes:
-      - ./shared:/tmp/shared
     
   nifi-registry:
     image: apache/nifi-registry:latest
