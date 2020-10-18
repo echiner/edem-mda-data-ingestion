@@ -11,7 +11,7 @@ In this exercise we will not only move data (from HTTP to HDFS), but also do som
 * Split the file, using the **SplitText** processor
   * Split every 1000 rows
 * Rename the file, using the **UpdateAttribute** processor
-  * Example renaming: `DLP-${filename}-${nextInt()}.txt`
+  * Example renaming: `EDEM-${filename}-${nextInt()}.txt`
 
 For storing into HDFS, we will be using the **PutHDFS** processor. Tip:
 
