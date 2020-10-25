@@ -8,7 +8,7 @@ This will be the data source (Valencia Open Data):
 
 * http://gobiernoabierto.valencia.es/es/resource/?ds=textos-calles&id=975c7bd7-7eef-4201-b8a2-3bdc45b0906e
 
-A couple of tips:
+Some tips:
 
 * Use the following processors
   * InvokeHTTP

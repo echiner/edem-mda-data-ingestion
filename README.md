@@ -34,7 +34,7 @@ You will find the services in the following URLs:
 * [**Exercise 1**: Building our first Data Flow](Exercises/Exercise1)
 * [**Exercise 2**: Basic Ingestion (I)](Exercises/Exercise2)
 * [**Exercise 3**: Basic Ingestion (II)](Exercises/Exercise3)
-* [**Exercise 4**: GDELT Data Ingestoin ](Exercises/Exercise4)
+* [**Exercise 4**: GDELT Data Ingestion ](Exercises/Exercise4)
 * [**Exercise 5**: Ingesting real-time data](Exercises/Exercise5)
 
 ## Understanding the components

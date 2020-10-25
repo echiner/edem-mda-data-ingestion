@@ -6,7 +6,7 @@ File --> NiFi --> File
 
 It will be a guided exercise, while explaining the different concepts by the teacher.
 
-Only setup required is to create the two directories in NiFi's docker container:
+Only setup required is to create the two directories inside NiFi's docker container:
 
 ```shell
 # Check the container ID
@@ -24,6 +24,8 @@ $> cd /tmp
 $> mkdir in
 $> mkdir out
 ```
+
+Now follow the steps as the teacher explains it.
 
 # Resources
 
