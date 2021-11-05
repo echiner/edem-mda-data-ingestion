@@ -6,7 +6,9 @@ HTTP service --> NiFi --> File
 
 This will be the data source (Valencia Open Data):
 
-* http://gobiernoabierto.valencia.es/es/resource/?ds=textos-calles&id=975c7bd7-7eef-4201-b8a2-3bdc45b0906e
+* https://www.valencia.es/dadesobertes/es/dataset/?id=textos-dels-carrers 
+
+In that dataset, look for the CSV URL.
 
 Some tips:
 
