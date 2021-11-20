@@ -8,6 +8,8 @@ It will be a guided exercise, while explaining the different concepts by the tea
 
 Only setup required is to create the two directories inside NiFi's docker container:
 
+**First**, enter the container. You can do this by clicking the "CLI" button for the "nifi" container in the Docker Dashbooard, or follow these steps in the console:
+
 ```shell
 # Check the container ID
 $> docker ps
@@ -18,7 +20,11 @@ CONTAINER ID        IMAGE                         COMMAND                  CREAT
 
 # Get into the container (select the container ID for "nifi")
 $> docker exec -it 712682af2ec6 /bin/bash
+```
 
+**Second**, once inside the container, create the two directories:
+
+```shell
 # Create two directories
 $> cd /tmp
 $> mkdir in
