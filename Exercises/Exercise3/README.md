@@ -15,7 +15,7 @@ In this exercise we will not only move data (from HTTP to HDFS), but also do som
 
 # Resources
 
-* Apache NiFi (local): http://localhost:8080/nifi
+* Apache NiFi (local): https://localhost:8443/nifi
 * Apache NiFi Documentation: https://nifi.apache.org/docs.html
 * Apache NiFi Expresion Language Guide: https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html 
 * Data Source: https://www.valencia.es/dadesobertes/es/dataset/?id=textos-dels-carrers 

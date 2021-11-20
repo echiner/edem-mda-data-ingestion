@@ -16,10 +16,10 @@ Some tips:
   * InvokeHTTP
   * PutFile
 * Connect the processors with the "response" output, and terminate the others
-* WARNING: Check the “SCHEDULING” when invoking the HTTP URL and set to something reasonable (e.g. 30 secs), otherwise we will saturate the server
+* **WARNING**: Check the “SCHEDULING” when invoking the HTTP URL and set to something reasonable (e.g. 30 secs), otherwise we will saturate the server
 
 # Resources
 
-* Apache NiFi (local): http://localhost:8080/nifi
+* Apache NiFi (local): https://localhost:8443/nifi
 * Apache NiFi Documentation: https://nifi.apache.org/docs.html
 * Valencia Open Data: http://gobiernoabierto.valencia.es

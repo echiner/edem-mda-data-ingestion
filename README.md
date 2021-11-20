@@ -26,7 +26,9 @@ docker-compose stop <SERVICE>
 
 You will find the services in the following URLs:
 
-* [Apache NiFi](http://localhost:8080/nifi)
+* [Apache NiFi](https://localhost:8443/nifi)
+  * **Username**: admin
+  * **Password**: ctsBtRBKHRAx69EqUghvvgEvjnaLjFEB
 * [NiFi Registry](http://localhost:18080/nifi-registry)
 
 ## Exercises
@@ -48,7 +50,7 @@ Here is the list of components and ports:
 
 | Component  | Ports |
 | ------------- | ------------- |
-| Apache NiFi  | 8080  |
+| Apache NiFi  | 8443  |
 | Apache NiFi Registry  | 18080  |
 
 ## Shut down and destroy

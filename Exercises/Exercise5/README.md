@@ -44,6 +44,6 @@ This is what you will have to deliver:
 
 # Resources
 
-* Apache NiFi (local): http://localhost:8080/nifi
+* Apache NiFi (local): https://localhost:8443/nifi
 * Apache NiFi Documentation: https://nifi.apache.org/docs.html
 * Apache NiFi Expresion Language Guide: https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html 

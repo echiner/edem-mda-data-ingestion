@@ -29,5 +29,5 @@ Now follow the steps as the teacher explains it.
 
 # Resources
 
-* Apache NiFi (local): http://localhost:8080/nifi
+* Apache NiFi (local): https://localhost:8443/nifi
 * Apache NiFi Documentation: https://nifi.apache.org/docs.html
