@@ -48,10 +48,10 @@ Given that we will be reusing the same Docker Compose that we used in previous c
 
 Here is the list of components and ports:
 
-| Component  | Ports |
-| ------------- | ------------- |
-| Apache NiFi  | 8443  |
-| Apache NiFi Registry  | 18080  |
+| Component  | Docker Service | Port |
+| ------------- | ------------- | ------------- |
+| Apache NiFi  | nifi  |  8443  |
+| Apache NiFi Registry   | nifi-registry  | 18080  |
 
 ## Shut down and destroy
 
