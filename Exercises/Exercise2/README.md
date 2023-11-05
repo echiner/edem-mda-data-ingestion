@@ -4,11 +4,11 @@ In this exercise we will get "batch data" from an open data source and store int
 
 HTTP service --> NiFi --> File
 
-This will be the data source (Valencia Open Data):
+This will be the data source (Valencia Open Data - ValenBisi Availability):
 
-* https://www.valencia.es/dadesobertes/es/dataset/?id=textos-dels-carrers 
+* https://valencia.opendatasoft.com/explore/dataset/valenbisi-disponibilitat-valenbisi-dsiponibilidad
 
-In that dataset, look for the CSV URL.
+In that dataset, **look for the CSV URL**.
 
 Some tips:
 
