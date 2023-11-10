@@ -1,49 +1,34 @@
-# Ingesting real-time data
+# GDELT Data Ingesiton
 
-In this exercise we will read data in real-time (e.g. Twitter), and store in HDFS:
+In this exercise we will load data from GDELT. The [**GDELT Project**](https://www.gdeltproject.org/) is a realtime network diagram and database of global human society for open research.
 
-Twitter --> NiFi --> HDFS
+The GDELT Project monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.
 
-Mandatory:
-* Read from a real-time data source
-* Apply some internal processors (e.g. filtering, split, conversion, etc.)
-* Store in HDFS
+# Details
 
-Optional:
-* Make it available in Hive
+On this exercise you are on your own, but here are some recommendations:
 
-Tip:
-* [Apply for a Twitter developer account](https://developer.twitter.com/en/apply-for-access)
+1. Understand the data and how it is provided (format, frequency, etc.):
+   * https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/
+2. Plan how you will build your workflow
+3. Start small: Develop first an end-to-end happy path
+4. Complete the workflow and enhance it
 
-**IMPORTANT NOTE** (with regards to Twitter account creation): Beware that in some cases the creation of the Twitter Dev account can take a few days.
+Some other considerations:
 
-## Alternative real-time data sources
-
-If you don't want to use Twitter, feel free to use any other real-time data source:
-
-* https://www.quora.com/Where-can-I-find-public-or-free-real-time-or-streaming-data-sources
-* https://blog.k2datascience.com/real-time-data-sources-for-data-engineering-projects-9bcff65c8468
-* https://github.com/ColinEberhardt/awesome-public-streaming-datasets
-* https://www.pubnub.com/developers/realtime-data-streams/
-
-Or even, you can just read from a source of data which changes over time (e.g. stocks or weather), so you can schedule it every x seconds/minutes.
-For example:
-
-* https://openweathermap.org/api
-
-## Alternative non real-time data source
-
-If you don't want to use Twitter and you don't find any real-time data source, feel free to create any other *more or less complex" workflow.
-
-# Deliverables
-
-This is what you will have to deliver:
-
-* Screenshot of the workflow
-* Short explanation of what you did (data source, transformations, etc.)
+* Store or send the files wherever you want (e.g. File, HDFS, Kafka...)
+* Make sure you set the scheduling in order to get the updated data periodically
+* High level steps are:
+  1. Download the master file
+  2. For every line (data type)
+     * Download the zip file
+     * Unzip the file
+     * If you want to convert to individual records: Extract records and send (e.g. Kafka or Database)
+     * If you want to store the file: Rename and store in folder
 
 # Resources
 
 * Apache NiFi (local): https://localhost:8443/nifi
 * Apache NiFi Documentation: https://nifi.apache.org/docs.html
 * Apache NiFi Expresion Language Guide: https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html 
+* Data Source: https://www.gdeltproject.org/

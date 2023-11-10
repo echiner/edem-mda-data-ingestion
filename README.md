@@ -34,10 +34,11 @@ You will find the services in the following URLs:
 ## Exercises
 
 * [**Exercise 1**: Building our first Data Flow](Exercises/Exercise1)
-* [**Exercise 2**: Basic Ingestion (I)](Exercises/Exercise2)
-* [**Exercise 3**: Basic Ingestion (II)](Exercises/Exercise3)
-* [**Exercise 4**: GDELT Data Ingestion ](Exercises/Exercise4)
-* [**Exercise 5**: Ingesting real-time data](Exercises/Exercise5)
+* [**Exercise 2**: Basic Ingestion (I) - File to File](Exercises/Exercise2)
+* [**Exercise 3**: Basic Ingestion (II) - HTTP to File](Exercises/Exercise3)
+* [**Exercise 4**: Complex Data Ingestion - Real-time Flights](Exercises/Exercise4)
+* [**Exercise 5**: GDELT Data Ingestion ](Exercises/Exercise5)
+* [**Exercise 6**: Ingesting real-time data](Exercises/Exercise6)
 
 ## Understanding the components
 
@@ -45,13 +46,18 @@ Given that we will be reusing the same Docker Compose that we used in previous c
 
 * **Apache NiFi**: Ingestion tool used in the course
 * **Apache NiFi Registry**: Code management and repository for Apache NiFi
+* **MongoDB**: NOSQL document database for storing JSON
+* **MongoDB Express**: Basic MongDB front-end for viewing and searching data
 
 Here is the list of components and ports:
 
 | Component  | Docker Service | Port |
 | ------------- | ------------- | ------------- |
-| Apache NiFi  | nifi  |  8443  |
-| Apache NiFi Registry   | nifi-registry  | 18080  |
+| Apache NiFi  | nifi  |  [8443](https://localhost:8443/nifi) |
+| Apache NiFi Registry   | nifi-registry  | [18080](http://localhost:18080/nifi-registry)  |
+| MongoDB   | mongo  | 27017  |
+| MongoDB Express - UI   | mongo-express  | [8081](http://localhost:8081/)  |
+
 
 ## Shut down and destroy
 

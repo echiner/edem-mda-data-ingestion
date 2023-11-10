@@ -1,4 +1,4 @@
-# Basic Ingestion (II)
+# Basic Ingestion (II) - HTTP to File
 
 In this exercise we will get "batch data" from an open data source and store into file, performing some simple "data preparation":
 
