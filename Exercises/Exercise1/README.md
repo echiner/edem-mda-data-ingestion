@@ -1,4 +1,4 @@
-# Building your first Data Flow
+# Building your first Data Flow - File to File
 
 In this exercise we will create our first NiFi workflow:
 

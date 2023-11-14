@@ -33,9 +33,9 @@ You will find the services in the following URLs:
 
 ## Exercises
 
-* [**Exercise 1**: Building our first Data Flow](Exercises/Exercise1)
-* [**Exercise 2**: Basic Ingestion (I) - File to File](Exercises/Exercise2)
-* [**Exercise 3**: Basic Ingestion (II) - HTTP to File](Exercises/Exercise3)
+* [**Exercise 1**: Building our first Data Flow - File to File](Exercises/Exercise1)
+* [**Exercise 2**: Basic Ingestion (I) - HTTP to File](Exercises/Exercise2)
+* [**Exercise 3**: Basic Ingestion (II) - HTTP to File, with data manipulation](Exercises/Exercise3)
 * [**Exercise 4**: Complex Data Ingestion - Real-time Flights](Exercises/Exercise4)
 * [**Exercise 5**: GDELT Data Ingestion ](Exercises/Exercise5)
 * [**Exercise 6**: Ingesting real-time data](Exercises/Exercise6)
